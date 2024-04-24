@@ -1,0 +1,38 @@
+.logo a img{
+  text-decoration: none;
+  max-width:500px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+  padding-right: 15rem;
+  
+}
+.nav-bar{
+  position: fixed;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  background-color: #EEEEEE;
+  border-bottom:1px solid #183883;
+  margin-top: -2em;
+  border-radius: 1rem;
+}
+.nav-list ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+  
+}
+.nav-item{
+  padding-left: 5px;
+  margin: 0 20px;
+
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight:  1000;
+  color: #183883;
+}

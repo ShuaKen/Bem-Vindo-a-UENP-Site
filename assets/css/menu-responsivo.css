@@ -1,0 +1,52 @@
+.menu-responsivo-icon{
+    display:none;
+
+}
+.menu-responsivo{
+    display: none;
+}
+.logo-responsiva a img{ 
+    display: none;
+    text-decoration: none;
+    max-width:300px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    padding-right: 15rem;
+}
+@media screen and (max-width: 730px) {
+   
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    
+    .nav-item{
+        display:none;
+    }
+    .logo a img{
+        display: none;
+    }
+    .logo-responsiva a img{
+        display: block;
+    }
+    .menu-responsivo-icon{
+        display:block;
+    }
+    .menu-responsivo-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-responsivo ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-responsivo .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    
+    
+    
+}

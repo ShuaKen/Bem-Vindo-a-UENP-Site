@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/bem-vindo.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/mapa.css">
+    <link rel="stylesheet" href="assets/css/menu-responsivo.css">
+
+    <title>Bem Vindo a UENP</title>
+</head>
+<body>
+    <header>     
+       
+        <nav class="nav-bar" >
+             
+                <div class="logo">
+                    <a href="/"> <img src="assets/img/Logo-Uenp/uenp-logoportal.png" alt="Universidade Estadual do Norte do Paraná/UENP"></a>
+                </div>
+                <div class="logo-responsiva"><a href="/"> <img src="assets/img/Logo-Uenp/logo-uenp-Pequena.png" alt="Universidade Estadual do Norte do Paraná/UENP"></a></div>
+                <div class="nav-list">
+                    <ul >
+                        <li class="nav-item"><a href="#bemVindo" class="nav-link"  >Bem Vindo a UENP</a></li>
+                        <li class="nav-item"><a href="#sobre" class="nav-link" >Sobre</a></li>
+                        <li class="nav-item"><a href="#historia"class="nav-link" >História</a></li>
+                        <li class="nav-item"><a href="#campi"class="nav-link" >Campi</a></li>
+                        <li class="nav-item"><a href="#dicas"class="nav-link">Dicas</a></li>
+                    </ul>
+                </div>
+                <div class="menu-responsivo-icon">
+                    <button onclick="menuShow()"><img class="icon" src="assets/img/icons/menu.svg" alt=""></button>
+                </div>
+               </nav>
+               <div class="menu-responsivo">
+                <ul >
+                    <li class="nav-item"><a href="#bemVindo" class="nav-link"  >Bem Vindo a UENP</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link" >Sobre</a></li>
+                    <li class="nav-item"><a href="#historia"class="nav-link" >História</a></li>
+                    <li class="nav-item"><a href="#campi"class="nav-link" >Campi</a></li>
+                    <li class="nav-item"><a href="#dicas"class="nav-link">Dicas</a></li>
+                </ul>
+               </div>
+    </header>
+                <main>
+                    
+                    <section id="bemVindo">
+                        
+                        <h1>Boas Vindas !</h1>
+                        
+                        <p>
+                            Preparem-se para a montanha-russa acadêmica! Na faculdade, o valor está nas voltas e reviravoltas pelo caminho, não apenas no destino final. Estamos prontos para compartilhar risadas, lágrimas (de alegria, esperamos!) e momentos inesquecíveis. Então, segurem-se bem, porque esta jornada de aprendizado promete ser uma aventura emocionante!
+                        </p>
+                        <p>
+                            Sejam bem-vindos à nossa louca comunidade acadêmica! 🎢🎓
+                        </p>
+                    </section>
+                    
+                    <section id="sobre">
+                        <h1>Sobre</h1>
+                        
+                        <p>
+                            A Universidade possui 3 Campi,sendo nas cidades de Bandeirantes, Jacarezinho e Cornélio Procópio, possuindo sua sede em Jacarezinho.
+                        </p>
+                        <p>
+                            Possui 27 cursos de graduação, 6 mestrados, 1 doutorado e pós-graduação à distância. 
+                        </p>
+                        <p>
+                            A instituição contém mais de 60 laboratórios, 5 bibliotecas, 1 Hospital Veterinário, Clínicas de Fisioterapia, de Odontologia e de Enfermagem, Escritório Modelo, Fazenda-Escola, Brinquedotecas, auditórios, salas de aula e o Parque Universitário de Ciência Cultura e Inovação, que reúne espaços para práticas de esporte, além de ações culturais e lazer.
+                        </p>
+                        
+                    </section >
+                   
+                    <section id="historia">
+                        <h1>História</h1>
+                    
+                        <p>
+                            A Universidade Estadual do Norte do Paraná foi concebida em setembro de 2006. Foi concebida atráves da integração de cinco faculdades (FAFIJA, FAEFIJA, FUNDINOPI, FFALM e FAFICOP), as quais possuem mais de 50 anos de experiência no quesito ensino.
+                        </p>
+                    </section>
+                    <section id="campi">
+                        <h1>Campi</h1>
+                        <div class="mapas">
+                                <div class="mapa">
+                                    <h2>Campus de Bandeirantes-<br>Luiz Meneghel</h2>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12343.464345822329!2d-50.375007526236715!3d-23.106834752548462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eac08fbd1fc391%3A0x9b8b42e8254b7094!2sCampus%20Luiz%20Meneghel%20-%20BR-369%2C%20s%2Fn%20-%20Bandeirantes%2C%20PR%2C%2086360-000!5e0!3m2!1sen!2sbr!4v1713889358788!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="1">
+                                    </iframe>
+                                </div>
+
+                                <div class="mapa">
+                                <h2>Campus de Cornélio Procópio</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29343.24106541531!2d-50.70371583235598!3d-23.173662271717177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eadf51d1f24c0b%3A0x68fde1145f43e736!2sUENP%20-%20Campus%20de%20Corn%C3%A9lio%20Proc%C3%B3pio!5e0!3m2!1sen!2sbr!4v1713889462250!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                </div>
+                       
+                            <div class="mapa">                                
+                                <h2>Campus de Jacarezinho -<br>Centro de Ciências Humanas e<br>da Educação</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58692.97118651114!2d-50.009538613413014!3d-23.158857693837543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c027aa38c523df%3A0xc62cc0ef4f549ae7!2sUENP%20-%20Centro%20de%20Ci%C3%AAncias%20Humanas%20e%20da%20Educa%C3%A7%C3%A3o%20e%20Centro%20de%20Letras%2C%20Comunica%C3%A7%C3%A3o%20e%20Artes!5e0!3m2!1sen!2sbr!4v1713889780672!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            
+                                <div class="mapa">
+                                <h2>Campus de Jacarezinho -<br>Centro de Ciências da Saúde</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30052810.530568313!2d-49.978567!3d-23.1499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0270296e62957%3A0x2577016da122e3ef!2sCCS%20UENP%20Jacarezinho-PR!5e0!3m2!1sen!2sbr!4v1713926947918!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            
+                                <div class="mapa">
+                                <h2>Campus de Jacarezinho -<br>Centro de Letras, Comunicação e Artes </h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.9924447861163!2d-49.98080952538965!3d-23.170475847346818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c027aa38c523df%3A0xc62cc0ef4f549ae7!2sUENP%20-%20Centro%20de%20Ci%C3%AAncias%20Humanas%20e%20da%20Educa%C3%A7%C3%A3o%20e%20Centro%20de%20Letras%2C%20Comunica%C3%A7%C3%A3o%20e%20Artes!5e0!3m2!1sen!2sbr!4v1713890019725!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>         
+                    </section>
+                    
+                    <section id="dicas">
+                        <h1>Dicas</h1>
+                        <ul class="lista-dicas">
+                            <span>A faculdade pode ser um lugar dificil e seguir algumas dessas dicas podem te ajudar:</span>
+                            <li>Faça amigos;</li>
+                            <li>Caso tenha duvidas pergunte ao professor, não existe perguntas bobas, bobo é não perguntar nada;</li>
+                            <li>Se tiver alguma dificuldade em algo anote e estude em casa;</li>
+                            <li>Faça amizade com algum professor, que consiga conversar melhor, seu TCC vai agradecer;</li>
+                            <li>Participe se possivel de eventos, projetos de extensão, voluntariado entre outros, isso pode ajudar para conseguir algum emprego/estágio no futuro.</li>
+                        </ul>
+                    </section>
+                </main>
+    <script src="assets/js/script-menu.js"></script>            
+</body>
+</html>

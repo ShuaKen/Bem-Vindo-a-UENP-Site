@@ -1,0 +1,35 @@
+
+main section h1{
+    color: #002479;
+    font-size: 3.125rem;
+    text-align: center;
+    
+}
+main section p{
+    color: #000;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    
+    text-align: center;
+    font-size: 1.4rem;
+}
+main #bemVindo h1{
+    padding-top: 5rem;
+    
+}
+#bemVindo p{
+    font-size: 1.5rem;
+}
+main section{
+    padding-bottom: 7.5rem;
+    border-bottom:1px solid #c2c2c2;
+}
+.lista-dicas{
+    margin-left: 10rem;
+}
+.lista-dicas span{
+    font-size: 1.6rem;
+}
+.lista-dicas li{
+    font-size: 1.4rem;
+}
